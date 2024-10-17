@@ -32,7 +32,8 @@ body {
 
 h2 {
     max-height: 6rem;
-    padding: 1rem;
+    padding: .2rem .5rem;
+    text-transform: uppercase;
     overflow: auto;
     border-bottom: 2px solid #202020;
 }
