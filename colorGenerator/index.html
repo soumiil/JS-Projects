@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Generator</title>
     <style>
-         @font-face {
+        @font-face {
             font-family: 'CustomFont';
             src: url(./assets/font/MONASPACENEON-REGULAR_0.OTF);
-         }
-        
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -61,7 +61,7 @@
 
             &:focus {
                 outline: 2px solid black;
-                outline-offset: 3px ;
+                outline-offset: 3px;
             }
         }
 
@@ -72,6 +72,10 @@
         }
 
         @media screen and (max-width:640px) {
+            #btn {
+                width: 80%;
+            }
+
             .container {
                 position: absolute;
                 bottom: 2rem;
