@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(./assets/font/MONASPACENEON-REGULAR_0.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont", monospace;
+}
+
+body {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+}
+
+.container {
+    height: 15rem;
+    width: 25rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#btn {
+    width: 60%;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+
+    &:focus {
+        outline: 2px solid black;
+        outline-offset: 3px;
+    }
+}
+
+#hexCode {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 640px) {
+    #btn {
+        width: 80%;
+    }
+
+    .container {
+        position: absolute;
+        bottom: 2rem;
+        height: 20%;
+        width: 80%;
+    }
+}
