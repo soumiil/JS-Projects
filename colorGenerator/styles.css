@@ -38,8 +38,8 @@ body {
     width: 60%;
     font-size: 1rem;
     padding: 10px 20px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     outline: none;
     border: 2px solid black;
     border-radius: 3rem;
@@ -47,8 +47,8 @@ body {
     transition: 0.3s ease-in-out;
 
     &:hover {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
     }
 
     &:focus {
