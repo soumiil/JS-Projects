@@ -38,7 +38,7 @@ h2 {
     border-bottom: 2px solid #202020;
 }
 
-.options {
+.optionsContainer {
     height: auto;
     flex-grow: 1;
     display: flex;
