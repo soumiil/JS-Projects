@@ -80,7 +80,7 @@ function reset() {
 }
 
 function endQuiz() {
-    let container = document.querySelector(".quiz-container");
+    const container = document.querySelector(".quiz-container");
     container.setAttribute(
         "style",
         "padding:1rem; display:flex; align-items:center; justify-content:center;"
@@ -89,8 +89,7 @@ function endQuiz() {
     <br/>
     <h3>Your score was:</h3>
     <br/>
-    <p>Correct: ${correct}, Incorrect: ${incorrect}</p>
-    `;
+    <p>Correct: ${correct}, Incorrect: ${incorrect}</p>`;
 }
 
 loadQuestion();
